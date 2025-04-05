@@ -3,7 +3,6 @@ int Leds[] = {13, 12, 11, 10, 9, 8, 7, 6, 5, 4};
 int Del = 500;
 int CurrentLed = -1;
 int Direction = 1;
-void Lights(int);
 
 
 
@@ -26,14 +25,3 @@ if(CurrentLed == 0 || CurrentLed == 9){
 Direction = (CurrentLed == 9) ? -1:1;
 }
 }
-
-
-
-void Lights(int inv){
-switch(inv){
-case 0:
-break;
-case 1:
-break;
-}
-} 
